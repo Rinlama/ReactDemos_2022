@@ -29,7 +29,7 @@ function DiscordServices(clearForm, setBusy, setMessage) {
       setBusy({ state: false });
       setMessage({
         type: "info",
-        text: "Contact message submit.",
+        text: "Message submit.",
       });
     } catch (error) {
       setBusy({ state: false });
